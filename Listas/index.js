@@ -57,20 +57,19 @@ console.log("Lista de cores: ", cor);
 let posicaoCor = Number(prompt("Escolha uma posição de da cor que você quer alterar: "))
 
 if(posicaoCor >= 1 && posicaoCor <= 10){
-    let novaCor = prompt("Digite para que cor você deseja alterar: ")
+    let novaCor = prompt("Digite para que cor você deseja alterar: ");
     cor[posicaoCor - 1] = novaCor;
 }else{
-    console.log("Você escolheu uma posição inválida")
+    console.log("Você escolheu uma posição inválida");
 }
 
-//(o que quer mudar, posição, para que quer mudar);
 //alterar idade
-let posicaoIdade = Number(prompt("Escolha a posição da idade que você quer alterar: "))
+let posicaoIdade = Number(prompt("Escolha a posição da idade que você quer alterar: "));
 if(posicaoIdade >= 1 && posicaoIdade <= 10){
-    let novaIdade = Number(prompt("Digite para que idade você deseja alterar: "))
+    let novaIdade = Number(prompt("Digite para que idade você deseja alterar: "));
     idade[posicaoIdade - 1] = novaIdade;
 }else{
-    console.log("Você escolheu uma posição inválida")
+    console.log("Você escolheu uma posição inválida");
 }
 
 
